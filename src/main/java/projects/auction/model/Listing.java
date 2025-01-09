@@ -20,8 +20,8 @@ public class Listing {
     private long listingId;
     private String title;
     private String description;
-    private String StartingDate;
-    private String EndingDate;
+    private String startDate;
+    private String endDate;
 
     @ManyToOne
     @JoinColumn(name = "user_id")

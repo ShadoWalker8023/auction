@@ -27,10 +27,6 @@ public class User {
      private String firstName;
      private String lastName;
      private String email;
-     private String phone;
-     private String address;
-     private String addressNumber;
-     private String postalCode;
 
      @OneToMany(mappedBy = "listing_id")
      private Set<Listing> listings = new HashSet<>();
